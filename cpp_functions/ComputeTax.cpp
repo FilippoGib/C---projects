@@ -1,3 +1,5 @@
+//function used to add taxes to a purcahse
+
 #include <iostream>
 using namespace std;
 
@@ -14,5 +16,6 @@ int main(int argc, char*argv[]){
 
 double computeTax(double subtotal){ 
 
-return subtotal*SALES_TAX;
+    return subtotal*SALES_TAX;
+
 }
