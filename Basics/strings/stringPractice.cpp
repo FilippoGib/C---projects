@@ -55,4 +55,15 @@ int main(int argc, char** argv)
 
     cout << (name3 == name) <<endl; //this works because it compares two strings! (opertaror overloading)
 
+    //something else
+
+    cout << "Enter you name: ";
+    cin >> name2;   
+    cin >> name3;
+
+    printf("your first name is %s and your last name is %s\n", name2, name3); //this doesnt print correctly because it is a c function
+    printf("Your first name is %s and your last name is %s\n",name2.c_str(), name3.c_str()); //this works because it is a c++ function
+
+    cout <<name2<< endl;
+    cout <<name3 << endl;
 }
