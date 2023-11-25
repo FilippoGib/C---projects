@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/fillo/OneDrive/Desktop/C++ projects/Basics/ptr",
+      "program": "c:/Users/fillo/OneDrive/Desktop/C++ projects/Basics/ptr/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "setupCommands": [
